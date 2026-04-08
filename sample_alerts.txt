@@ -1,0 +1,45 @@
+# ============================================================
+#  sample_alerts.txt
+#  Bulk alert broadcast file for das_admin (option 5)
+#  Format: KEY=VALUE blocks separated by blank lines
+# ============================================================
+
+TYPE=CYCLONE
+SEVERITY=HIGH
+LOCATION=Bay of Bengal Coast, Andhra Pradesh
+LAT=15.9129
+LON=79.7400
+REGION=COASTAL_AP
+MSG=Severe cyclonic storm REMAL intensifying. Landfall expected within 18 hours. Sustained wind speeds of 140-160 km/h.
+INSTR=Evacuate within 5km of coastline. Move to designated shelters. Disconnect electrical appliances. Store adequate drinking water.
+EXPIRY=24
+
+TYPE=FLOOD
+SEVERITY=MEDIUM
+LOCATION=Kurnool District, Andhra Pradesh
+LAT=15.8281
+LON=78.0373
+REGION=SOUTH_INDIA
+MSG=Krishna river water level has crossed danger mark at Srisailam dam. Controlled release initiated. Downstream areas at risk.
+INSTR=Avoid river banks and low-lying areas. Move to higher ground. Follow district administration orders.
+EXPIRY=12
+
+TYPE=EARTHQUAKE
+SEVERITY=CRITICAL
+LOCATION=Andaman Islands
+LAT=11.7401
+LON=92.6586
+REGION=ANDAMAN
+MSG=Magnitude 6.8 earthquake detected at 08:32 UTC. Epicentre 45km NE of Port Blair. Tsunami watch in effect.
+INSTR=Move inland immediately. Go to at least 30m elevation. Do not return to coast until official all-clear. Monitor emergency radio.
+EXPIRY=6
+
+TYPE=EPIDEMIC
+SEVERITY=MEDIUM
+LOCATION=Vellore, Tamil Nadu
+LAT=12.9165
+LON=79.1325
+REGION=SOUTH_INDIA
+MSG=Unusual spike in gastroenteritis cases reported across 3 districts. Waterborne transmission suspected. 250+ cases in 48 hours.
+INSTR=Boil or filter all drinking water. Avoid raw/street food. Wash hands frequently. Report symptoms at nearest government hospital.
+EXPIRY=0
